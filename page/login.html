@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Styles-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Login de Usuario</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <nav class="proyect-nav-bar">
+            <section class="proyect-nav-container">
+                <figure class="proyect-nav-bar-logo">
+                    <img class="image-logo" src="../img/logo-mercado-liebre.svg" alt="este es el logo de ML">
+                </figure>
+                <form class="proyect-nav-bar-search">
+                    <input type="text" class="proyect-nav-bar-txt" placeholder="Buscar productos,marcas">
+                    <button class="icon-lupa">
+                        <i  class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </section>
+            <p class="icon-dollar"> 
+                <i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito
+            </p>
+        </nav>
+        <nav class="nav-bar-links">
+            <section class="section-link">
+                <ul>
+                    <li>
+                        <a href="#">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="#">Tiendas Oficiales</a>
+                    </li>
+                    <li>
+                        <a href="#">Vender</a>
+                    </li>
+                    <li>
+                        <a href="#">Ayuda</a>
+                    </li>
+                </ul>
+            </section>  
+            <section class="section-icons">
+                <ul>
+                    <li>
+                        <a href="./page/register.html">Creá tu cuenta</a>
+                        <i class="fa-regular fa-address-card"></i>
+                    </li>
+                    <li>
+                        <a href="./page/login.html">Ingresá</a>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </li> 
+                    <li>
+                        <a href="#">Mis Compras</a>
+                        <i class="fa-sharp fa-solid fa-basket-shopping"></i>
+                    </li>   
+                </ul>
+            </section>         
+        </nav>
+        <button class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </button>  
+    </header>
+    <!--Main-->
+    <main class="main_form">
+        <form action="../index.html" method="POST" class="card_form">
+            <article class="card_loguin">
+                <!--USUARIO-->
+                <fieldset>
+                    <legend>Usuario</legend>
+                    <input class="form" type="text" name="username" placeholder="Nombre de Usuario">
+                </fieldset>
+                <!--CONTRASEÑA-->
+                <fieldset>
+                    <legend>Contraseña</legend>
+                    <input class="form" type="password" name="pass" placeholder="*******">
+                </fieldset>
+                <!--BTN ENVIAR-->
+                <a href="../index.html">
+                    <button class="btn_form" type="submit" name="enviar">Iniciar sesión</button>
+                </a>
+            </article>
+        </form>
+    </main>
+    <footer>
+        <section class="section-footer">
+            <article class="tag-section-footer">
+                <i class="fa-solid fa-credit-card"></i>
+                <h4>Pagá con tarjeta o en efectivo
+                </h4>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </article>
+            <article class="tag-section-footer">
+                <i class="fa-solid fa-gift"></i>
+                <h4>Envío gratis desde $ 2.500
+                </h4>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </article>
+            <article class="tag-section-footer">
+                <i class="fa-solid fa-user-shield"></i>
+                <h4>Seguridad, de principio a fin
+                </h4>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            </article>
+        </section>
+        <h6> Copyright © 1999-2020 MercadoLiebre S.R.L.</h6>
+    </footer>
+</body>
+</html>
